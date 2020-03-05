@@ -4,63 +4,47 @@
 	padding: 0px;
 	z-index: 1;
 	position: absolute;
-	min-width: 75rem;
+	width: 64rem;
 
 	/* Firefox */
-	left: -moz-calc(50% - 37.5rem);
+	left: -moz-calc(50% - 32rem);
 	/* WebKit */
-	left: -webkit-calc(50% - 37.5rem);
+	left: -webkit-calc(50% - 32rem);
 	/* Opera */
-	left: -o-calc(50% - 37.5rem);
+	left: -o-calc(50% - 32rem);
 	/* Standard */
-	left: calc(50% - 37.5rem);
+	left: calc(50% - 32rem);
 }
 
 .header-div {
 	font-family: "bigelow_rulesregular";
 	font-size: 7rem;
-	left: 22rem;
+	left: 20rem;
 	text-align: center;
 	z-index: 1;
 	position: absolute;
-	width: auto;
-
-	/* Firefox */
-	width: -moz-calc(100% - 22rem);
-	/* WebKit */
-	width: -webkit-calc(100% - 22rem);
-	/* Opera */
-	width: -o-calc(100% - 22rem);
-	/* Standard */
-	width: calc(100% - 22rem);
+	width: 44rem;
 }
 
 .photo-div {
-	left: 22rem;
+	left: 20rem;
 	z-index: 1;
 	position: absolute;
 	top: 17.6rem;
 	padding: 0px;
 	margin: 0px;
-	/* Firefox */
-	width: -moz-calc(100% - 22rem);
-	/* WebKit */
-	width: -webkit-calc(100% - 22rem);
-	/* Opera */
-	width: -o-calc(100% - 22rem);
-	/* Standard */
-	width: calc(100% - 22rem);
+	widthh: 44rem;
 }
 
 .headshot-photo {
-	width: 50%;
+	width: 60%;
 	margin-top: 2rem;
-	margin-left: 25%;
+	margin-left: 20%;
 	padding: 0px;
 }
 
 .menu-div {
-	width: 20rem;
+	width: 16rem;
 	left: 0rem;
 	top: 19.6rem;
 	z-index: 1;
@@ -70,14 +54,14 @@
 .menu-item {
 	text-align: center;
 	font-family: "bigelow_rulesregular";
-	font-size: 3.75em;
-	padding-top: 0.125em;
-	padding-bottom: 0.125em;
+	font-size: 3.75rem;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
 	text-align: center;
-	width: 90%;
-	margin-left: 5%;
+	width: 16rem;
+	margin-left: 1rem;
 	background-color: #ebc793;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.5rem;
 	z-index: 2;
 }
 
@@ -88,9 +72,9 @@
 
 .menu-item-book {
 	display: none;
-	font-size: 2.25em;
-	width: 85%;
-	margin-left: 7.5%;
+	font-size: 2rem;
+	width: 14rem;
+	margin-left: 2rem;
 }
 
 .vertical-bars {
@@ -102,7 +86,7 @@
 
 .vertical-bars-home {
 	background-color: black;
-	left: 20em;
+	left: 18em;
 }
 
 .horizontal-bar-region {
