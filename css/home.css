@@ -110,6 +110,7 @@
 	width: 100%;
 	z-index: 3;
 	position: absolute;
+	min-width: 1200px;
 }
 
 .horizontal-bars {
