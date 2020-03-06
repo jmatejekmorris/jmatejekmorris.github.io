@@ -25,7 +25,6 @@ html, body {
 
 .horizontal-bar-region {
     width: 100%;
-    height: 5.2rem;
     top: 10rem;
     z-index: 3;
     position: absolute;
@@ -47,7 +46,6 @@ html, body {
     height: 100%;
     z-index: 2;
     position: fixed;
-    background-color: blue;
 }
 
 .red-horizontal {
@@ -85,6 +83,20 @@ html, body {
     background-size: auto 100%;
 }
 
+.yellow-horizontal {
+    background-color: #c6ad55;
+    background-image:url('/images/bars/yellow-horizontal.png');
+    background-repeat: x-repeat;
+    background-size: auto 100%;
+}
+
+.orange-vertical {
+    background-color: #f49324;
+    background-image:url('/images/bars/orange-vertical.png');
+    background-repeat: y-repeat;
+    background-size: 100% auto;
+}
+
 .purple-vertical {
     background-color: #8554aa;
     background-image:url('/images/bars/purple-vertical.png');
@@ -95,6 +107,13 @@ html, body {
 .black-vertical {
     background-color: black;
     background-image:url('/images/bars/black-vertical.png');
+    background-repeat: y-repeat;
+    background-size: 100% auto;
+}
+
+.yellow-vertical {
+    background-color: #c6ad55;
+    background-image:url('/images/bars/yellow-vertical.png');
     background-repeat: y-repeat;
     background-size: 100% auto;
 }
