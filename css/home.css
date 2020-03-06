@@ -63,6 +63,7 @@
 	background-color: #ebc793;
 	margin-bottom: 0.5rem;
 	z-index: 2;
+	box-shadow: -2px 2px 5px #888888;
 }
 
 .menu-item:hover {
@@ -82,11 +83,15 @@
 	height: 100%;
 	z-index: 2;
 	position: absolute;
+	box-shadow: -2px 0px 5px #888888;
 }
 
 .vertical-bars-home {
-	background-color: black;
 	left: 18em;
+	background-color: black;
+	background-image:url('/images/bars/black-vertical.png');
+	background-repeat: y-repeat;
+	background-size: 100% auto;
 }
 
 .horizontal-bar-region {
@@ -103,5 +108,26 @@
 	padding: 0px;
 	margin-top: 1.2rem;
 	position: relative;
+	box-shadow: 0px 2px 5px #888888;
 }
 
+.horizontal-bars-first {
+	background-color: #1ad2aa;
+	background-image:url('/images/bars/teal-horizontal.png');
+	background-repeat: x-repeat;
+	background-size: auto 100%;
+}
+
+.horizontal-bars-second {
+	background-color: #1c60ba;
+	background-image:url('/images/bars/blue-horizontal.png');
+	background-repeat: x-repeat;
+	background-size: auto 100%;
+}
+
+.horizontal-bars-third {
+	background-color: #b070e1;
+	background-image:url('/images/bars/purple-horizontal.png');
+	background-repeat: x-repeat;
+	background-size: auto 100%;
+}
