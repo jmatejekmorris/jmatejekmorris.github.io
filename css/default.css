@@ -15,7 +15,7 @@ html, body {
 
 .header-div {
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     position: absolute;
     text-align: center;
     font-size: 7rem;
@@ -48,6 +48,13 @@ html, body {
     z-index: 2;
     position: fixed;
     background-color: blue;
+}
+
+.red-horizontal {
+    background-color: #df333f;
+    background-image:url('/images/bars/red-horizontal.png');
+    background-repeat: x-repeat;
+    background-size: auto 100%;
 }
 
 .orange-horizontal {

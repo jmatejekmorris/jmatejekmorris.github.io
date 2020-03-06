@@ -22,5 +22,10 @@
 .right-content-div-about {
     width: 24rem;
     left: 42rem;
-    background-color: green;
+}
+
+.about-image {
+	margin: 2rem;
+	width: 20rem;
+	height: 20rem;
 }
