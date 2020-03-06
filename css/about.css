@@ -1,0 +1,26 @@
+.vertical-bar-about {
+	left: -moz-calc(max(40rem, 50% + 8rem));
+	left: -webkit-calc(max(40rem, 50% + 8rem));
+	left: -o-calc(max(40rem, 50% + 8rem));
+	left: calc(max(40rem, 50% + 8rem));
+}
+
+.header-div-about {
+	width: 40rem;
+}
+
+.content-div-about {
+	top: 15.2rem;
+}
+
+.left-content-div-about {
+	width: 38rem;
+	padding: 1rem;
+	font-size: 1.75rem;
+}
+
+.right-content-div-about {
+    width: 24rem;
+    left: 42rem;
+    background-color: green;
+}

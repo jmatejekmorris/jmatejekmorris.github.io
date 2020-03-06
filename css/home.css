@@ -1,40 +1,25 @@
-.content-div {
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	z-index: 1;
-	position: absolute;
-	width: 64rem;
-
-	/* Firefox */
-	left: -moz-calc(50% - 32rem);
-	/* WebKit */
-	left: -webkit-calc(50% - 32rem);
-	/* Opera */
-	left: -o-calc(50% - 32rem);
-	/* Standard */
-	left: calc(50% - 32rem);
+.vertical-bar-home {
+	left: -moz-calc(max(18rem, 50% - 14rem));
+	left: -webkit-calc(max(18rem, 50% - 14rem));
+	left: -o-calc(max(18rem, 50% - 14rem));
+	left: calc(max(18rem, 50% - 14rem));
 }
 
-.header-div {
-	font-family: "bigelow_rulesregular";
-	margin-top: 0.5rem;
-	font-size: 7rem;
+.header-div-home {
 	left: 20rem;
-	text-align: center;
-	z-index: 1;
-	position: absolute;
 	width: 44rem;
 }
 
-.photo-div {
+.content-div-home {
+	top: 18.4rem;
+}
+
+.left-content-div-home {
+	width: 18rem;
+}
+
+.right-content-div-home {
 	left: 20rem;
-	z-index: 1;
-	position: absolute;
-	top: 17.6rem;
-	padding: 0px;
-	margin: 0px;
-	widthh: 44rem;
 }
 
 .headshot-photo {
@@ -47,9 +32,8 @@
 .menu-div {
 	width: 16rem;
 	left: 0rem;
-	top: 19.6rem;
 	z-index: 1;
-	position: absolute;
+	margin-top: 2rem;
 }
 
 .menu-item {
@@ -88,41 +72,4 @@
 	font-size: 2rem;
 	width: 14rem;
 	margin-left: 2rem;
-}
-
-.vertical-bars-home {
-	left: 18em;
-	background-color: black;
-	background-image:url('/images/bars/black-vertical.png');
-	background-repeat: y-repeat;
-	background-size: 100% auto;
-}
-
-.horizontal-bar-region {
-	top: 8rem;
-	width: 100%;
-	z-index: 3;
-	position: absolute;
-	min-width: 1200px;
-}
-
-.horizontal-bars-first {
-	background-color: #1ad2aa;
-	background-image:url('/images/bars/teal-horizontal.png');
-	background-repeat: x-repeat;
-	background-size: auto 100%;
-}
-
-.horizontal-bars-second {
-	background-color: #1c60ba;
-	background-image:url('/images/bars/blue-horizontal.png');
-	background-repeat: x-repeat;
-	background-size: auto 100%;
-}
-
-.horizontal-bars-third {
-	background-color: #b070e1;
-	background-image:url('/images/bars/purple-horizontal.png');
-	background-repeat: x-repeat;
-	background-size: auto 100%;
 }
