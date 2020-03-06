@@ -18,6 +18,7 @@
 
 .header-div {
 	font-family: "bigelow_rulesregular";
+	margin-top: 0.5rem;
 	font-size: 7rem;
 	left: 20rem;
 	text-align: center;
@@ -65,7 +66,7 @@
 	z-index: 2;
 	box-shadow: -2px 2px 5px #888888;
 	display: block;
-	color: #694186;
+	color: black;
 }
 
 .menu-item-wrapper {
