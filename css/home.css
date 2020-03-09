@@ -1,39 +1,30 @@
-.vertical-bar-home {
-	left: -moz-calc(max(18rem, 50% - 14rem));
-	left: -webkit-calc(max(18rem, 50% - 14rem));
-	left: -o-calc(max(18rem, 50% - 14rem));
-	left: calc(max(18rem, 50% - 14rem));
-}
-
-.header-div-home {
-	left: 20rem;
-	width: 44rem;
-}
-
-.content-div-home {
-	top: 18.4rem;
-}
+/* On the home page, the vertical bar is 18rem from the left, 2rem wide */
 
 .left-content-div-home {
 	width: 18rem;
 }
 
 .right-content-div-home {
+	width: 44rem;
 	left: 20rem;
 }
 
-.headshot-photo {
-	width: 60%;
-	margin-top: 2rem;
-	margin-left: 20%;
-	padding: 0px;
+.horizontal-bar-one-home {
+	top: 10rem;
+}
+
+.horizontal-bar-two-home {
+	top: 13.2rem;
+}
+
+.horizontal-bar-three-home {
+	top: 16.4rem;
 }
 
 .menu-div {
 	width: 16rem;
 	left: 0rem;
-	z-index: 1;
-	margin-top: 2rem;
+	margin-top: 9.6rem;
 }
 
 .menu-item {
@@ -49,6 +40,21 @@
 	margin-bottom: 0.5rem;
 	z-index: 2;
 	box-shadow: -2px 2px 5px #888888;
+	display: block;
+	color: black;
+}
+
+.social-menu-item {
+	text-align: center;
+	font-family: "bigelow_rulesregular";
+	font-size: 3.75rem;
+	padding-top: 0.125rem;
+	padding-bottom: 0.125rem;
+	text-align: center;
+	width: 16rem;
+	margin-left: 1rem;
+	margin-bottom: 0.5rem;
+	z-index: 2;
 	display: block;
 	color: black;
 }
@@ -72,4 +78,18 @@
 	font-size: 2rem;
 	width: 14rem;
 	margin-left: 2rem;
+	text-decoration: none;
+	color: inherit;
+}
+
+.headshot-photo {
+	width: 60%;
+	margin-top: 9.6rem;
+	margin-left: 20%;
+	padding: 0px;
+	box-shadow: -5px 5px 5px #888888;
+}
+
+.social-media-icon {
+	height: 3.75rem;
 }

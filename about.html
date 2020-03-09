@@ -5,15 +5,20 @@
 		<title>About Me</title>
 		<link rel="stylesheet" href="/css/default.css"/>
 		<link rel="stylesheet" href="/css/about.css"/>
+		<link rel="stylesheet" href="/css/colored-bars.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+		<script src="/scripts/about.js"></script>
 	</head>
 
 	<body>
-
+		<!-- div contains all of the content outside of the horizontal bars -->
 		<div class="center-div">
-			<div class="header-div header-div-about">About</div>
-			<div class="content-div content-div-about">
-				<div class="left-content-div left-content-div-about">
-					Hi! I&apos;m Jimmy! I grew up in Skillman, New Jersey, as a middle child with four siblings: Megan, Michael, Robert, and Brian. I always wanted a dog, but happily settled for a goldfish named Randolph. I spent much of my time finding ways to channel my creativity: acting, dancing to Disney soundtracks, co-hosting a direct-to-cassette tape news station with my sister, drawing, dreaming, writing, and performing intensely complicated melodramas with my action figures. I had many career goals, including animator and zookeeper. I was also certain I was destined to be a star on the stage and screen, but my stage fright, anxiety, and lack of theatrical talent rerouted my creative energies at an early age. With writing, I found that I could be all of the above and build complex characters and emotional journeys without the fear of falling off the stage. 
+			<div class="left-content-div left-content-div-about">
+				<div class="header-div">
+					About
+				</div>
+				<div class="about-me-div">
+					Hi! I&apos;m Jimmy! I grew up in Skillman, New Jersey, as a middle child with four siblings: Megan, Michael, Robert, and <a href="http://brianmatejek.com">Brian</a>. I always wanted a dog, but happily settled for a goldfish named Randolph. I spent much of my time finding ways to channel my creativity: acting, dancing to Disney soundtracks, co-hosting a direct-to-cassette tape news station with my sister, drawing, dreaming, writing, and performing intensely complicated melodramas with my action figures. I had many career goals, including animator and zookeeper. I was also certain I was destined to be a star on the stage and screen, but my stage fright, anxiety, and lack of theatrical talent rerouted my creative energies at an early age. With writing, I found that I could be all of the above and build complex characters and emotional journeys without the fear of falling off the stage. 
 					<br><br>
 					My favorite book growing up was Charlie and the Chocolate Factory (you definitely would have lost me in the Squirrel Room with Veruca Salt) and my creative idol was (is) Jim Henson. As such, I enjoy stories that blend humor, heart, and whimsy while promoting an ultimately kinder world.
 					<br><br>
@@ -25,19 +30,23 @@
 					<br><br>
 					I currently work at Harvard University in a non-writing job and spend evenings working on manuscripts and screenplays for children and young adults or relaxing and watching TV while thinking I should be writing. I also enjoy eating ice cream and drinking hot chocolate, but this is probably not very unique. Hmm. 
 				</div>
-				<div class="right-content-div right-content-div-about">
-					<img class="about-image" src="/images/about/Photo1A.jpeg"/>
+			</div>
+
+			<!-- a vertical bar divides the page into two regions -->
+			<div class="vertical-bar purple-vertical"></div>
+
+			<div class="right-content-div right-content-div-about">
+				<div class="header-div">&nbsp;</div>
+				<div class="about-me-photo-div">
+					<img class="about-image" src="/images/about/Photo1A.jpeg"/>					
 					<img class="about-image" src="/images/about/Photo2A.jpeg"/>
 					<img class="about-image" src="/images/about/Photo3A.jpeg"/>
 				</div>
 			</div>
 		</div>
-		
-		<div class="vertical-bar-region vertical-bar-about purple-vertical"></div>
 
-		<div class="horizontal-bar-region">
-			<div class="horizontal-bar orange-horizontal"></div>
-			<div class="horizontal-bar horizontal-margin blue-horizontal"></div>
-		</div>
+		<!-- div for the horizontal bars -->
+		<div class="horizontal-bar horizontal-bar-one-about orange-horizontal"></div>
+		<div class="horizontal-bar horizontal-bar-two-about blue-horizontal"></div>
 	</body>
 </html>

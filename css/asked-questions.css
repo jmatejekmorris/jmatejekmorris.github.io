@@ -1,0 +1,37 @@
+/* On the questions page, the vertical bar is 50rem from the left, 2rem wide */
+
+.left-content-div-questions {
+	width: 50rem;
+}
+
+.right-content-div-questions {
+    width: 12rem;
+    left: 52rem;
+}
+
+.horizontal-bar-one-questions {
+	top: 2rem;
+}
+
+.horizontal-bar-two-questions {
+	top: 12.2rem;
+}
+
+.header-div-questions {
+	font-size: 7rem;
+	margin-top: 4rem;
+}
+
+.questions-div {
+	padding: 1rem;
+}
+
+.seldom-picture-div {
+	text-align: center;
+	margin: 2rem;
+}
+
+.seldom-picture {
+	margin: auto;
+	width: 20rem;
+}

@@ -1,136 +1,79 @@
-html, body {
-	background: #f2d9b7;
-    padding: 0;
+* {
     margin: 0;
-    min-width: 64rem;
-    font-family: "bigelow_rulesregular";
+    padding: 0;
 }
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    background: #f2d9b7;
+}
+
+/* div for the center of the webpage */
 .center-div {
     width: 64rem;
-    z-index: 1;
-    position: relative;
-    margin: auto;
+    min-height: 100%;
+    position: absolute;
+    display: table;
+
+    /* width of 64rem, at most at left boundary */
+    left: -moz-calc(max(0rem, 50% - 32rem));
+    left: -webkit-calc(max(0rem, 50% - 32rem));
+    left: -o-calc(max(0rem, 50% - 32rem));
+    left: calc(max(0rem, 50% - 32rem));
 }
 
-.header-div {
-    width: 100%;
-    height: 8rem;
-    position: absolute;
-    text-align: center;
-    font-size: 7rem;
-    margin-top: 1rem;
-    display: inline-block;
+.left-content-div {
+    top: 0;
+    min-height: 100%;
+    display: table-cell;
+    padding-bottom: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25rem;
 }
 
-.horizontal-bar-region {
-    width: 100%;
-    top: 10rem;
-    z-index: 3;
-    position: absolute;
+/* div for the vertical bars in all webpages */
+.vertical-bar {
+    top: 0;
+    width: 2rem;
+    min-height: 100%;
+    display: table-cell;
+    box-shadow: 2px 0px 50x #888888;
+}
+
+.right-content-div {
+    top: 0;
+    min-height: 100%;
+    display: table-cell;
+    padding-bottom: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25rem;
 }
 
 .horizontal-bar {
     width: 100%;
+    min-width: 64rem;
     height: 2rem;
     padding: 0px;
+    position: absolute;
     box-shadow: 0px 2px 5px #888888;
 }
 
-.horizontal-margin {
-    margin-top: 1.2em;
-}
-
-.vertical-bar-region {
-    width: 2rem;
-    height: 100%;
-    z-index: 2;
-    position: fixed;
-}
-
-.red-horizontal {
-    background-color: #df333f;
-    background-image:url('/images/bars/red-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.orange-horizontal {
-    background-color: #f49324;
-    background-image:url('/images/bars/orange-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.green-horizontal {
-    background-color: #1ad2aa;
-    background-image:url('/images/bars/green-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.blue-horizontal {
-    background-color: #1c60ba;
-    background-image:url('/images/bars/blue-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.purple-horizontal {
-    background-color: #8554aa;
-    background-image:url('/images/bars/purple-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.yellow-horizontal {
-    background-color: #c6ad55;
-    background-image:url('/images/bars/yellow-horizontal.png');
-    background-repeat: x-repeat;
-    background-size: auto 100%;
-}
-
-.orange-vertical {
-    background-color: #f49324;
-    background-image:url('/images/bars/orange-vertical.png');
-    background-repeat: y-repeat;
-    background-size: 100% auto;
-}
-
-.purple-vertical {
-    background-color: #8554aa;
-    background-image:url('/images/bars/purple-vertical.png');
-    background-repeat: y-repeat;
-    background-size: 100% auto;
-}
-
-.black-vertical {
-    background-color: black;
-    background-image:url('/images/bars/black-vertical.png');
-    background-repeat: y-repeat;
-    background-size: 100% auto;
-}
-
-.yellow-vertical {
-    background-color: #c6ad55;
-    background-image:url('/images/bars/yellow-vertical.png');
-    background-repeat: y-repeat;
-    background-size: 100% auto;
-}
-
-.content-div {
+/* div css for the headers for each page */
+.header-div {
     width: 100%;
-    position: absolute;
+    font-family: "bigelow_rulesregular";
+    text-align: center;
+    font-size: 8rem;
+    height: 10rem;
 }
 
-.left-content-div {
-    position: absolute;
-}
-
-.right-content-div {
-    position: absolute;
-}
-
+/* css for the new font style */
 @font-face {
     font-family: 'bigelow_rulesregular';
     src: url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.eot');

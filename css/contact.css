@@ -1,8 +1,20 @@
-.header-div-contact {
+.left-content-div-contact {
 	width: 64rem;
 }
 
-.content-div-contact {
-	top: 20.4rem;
-	font-size: 3rem;
+.horizontal-bar-one-contact {
+	top: 10rem;
+}
+
+.horizontal-bar-two-contact {
+	top: 13.2rem;
+}
+
+.horizontal-bar-three-contact {
+	top: 16.4rem;
+}
+
+.about-me-div {
+	padding: 1rem;
+	padding-top: 9.6rem;
 }

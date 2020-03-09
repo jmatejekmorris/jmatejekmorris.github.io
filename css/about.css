@@ -1,22 +1,7 @@
-.vertical-bar-about {
-	left: -moz-calc(max(40rem, 50% + 8rem));
-	left: -webkit-calc(max(40rem, 50% + 8rem));
-	left: -o-calc(max(40rem, 50% + 8rem));
-	left: calc(max(40rem, 50% + 8rem));
-}
-
-.header-div-about {
-	width: 40rem;
-}
-
-.content-div-about {
-	top: 15.2rem;
-}
+/* On the about page, the vertical bar is 40rem from the left, 2rem wide */
 
 .left-content-div-about {
 	width: 38rem;
-	padding: 1rem;
-	font-size: 1.75rem;
 }
 
 .right-content-div-about {
@@ -24,8 +9,40 @@
     left: 42rem;
 }
 
+.horizontal-bar-one-about {
+	top: 10rem;
+}
+
+.horizontal-bar-two-about {
+	top: 13.2rem;
+}
+
+.about-me-div {
+	padding: 1rem;
+	padding-top: 6.4rem;
+}
+
+.about-me-photo-div {
+	padding-top: 6.4rem;
+}
+
 .about-image {
 	margin: 2rem;
 	width: 20rem;
 	height: 20rem;
+}
+
+#photo_one_cube .front { transform: rotateY(0deg) translateZ(75px); }
+#photo_one_cube .back { transform: rotateX(180deg) translateZ(75px); }
+#photo_one_cube .right { transform: rotateY(90deg) translateZ(75px); }
+#photo_one_cube .left { transform: rotateY(-90deg) translateZ(75px); }
+#photo_one_cube .top { transform: rotateX(90deg) translateZ(100px); }
+#photo_one_cube .bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+.blur { animation: blur 250ms; }
+
+@keyframes blur {
+    0% { -webkit-filter: blur(0px); }
+    50% { -webkit-filter: blur(5px); }
+    100% { -webkit-filter: blur(0px); }
 }
