@@ -40,6 +40,7 @@
 }
 
 .book-image {
+	width: 26rem;
 	box-shadow: -2px 2px 5px #888888;
 }
 
