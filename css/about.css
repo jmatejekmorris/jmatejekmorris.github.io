@@ -1,7 +1,21 @@
-/* On the about page, the vertical bar is 40rem from the left, 2rem wide */
+.about-vertical-bar {
+  margin-left: 38rem;
+}
 
-.left-content-div-about {
-	width: 38rem;
+
+
+.about-first-bar {
+  top: 1rem;
+}
+
+.about-second-bar {
+  top: 12.5rem;
+}
+
+
+
+/*.left-content-div-about {
+  width: 38rem;
 }
 
 .right-content-div-about {
@@ -10,26 +24,26 @@
 }
 
 .horizontal-bar-one-about {
-	top: 10rem;
+  top: 10rem;
 }
 
 .horizontal-bar-two-about {
-	top: 13.2rem;
+  top: 13.2rem;
 }
 
 .about-me-div {
-	padding: 1rem;
-	padding-top: 6.4rem;
+  padding: 1rem;
+  padding-top: 6.4rem;
 }
 
 .about-me-photo-div {
-	padding-top: 6.4rem;
+  padding-top: 6.4rem;
 }
 
 .about-image {
-	margin: 2rem;
-	width: 20rem;
-	height: 20rem;
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 #photo_one_cube .front { transform: rotateY(0deg) translateZ(75px); }
@@ -45,4 +59,4 @@
     0% { -webkit-filter: blur(0px); }
     50% { -webkit-filter: blur(5px); }
     100% { -webkit-filter: blur(0px); }
-}
+}*/
