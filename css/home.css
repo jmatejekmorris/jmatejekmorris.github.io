@@ -35,7 +35,7 @@
   float: right;
   margin-right: 10.75rem;
   padding: 0px;
-  box-shadow: -5px 5px 5px;
+  box-shadow: -5px 5px 5px #444444;
 }
 
 
@@ -58,7 +58,7 @@
   background-color: #ebc793;
   margin-bottom: 0.5rem;
   z-index: 2;
-  box-shadow: -2px 2px 5px black;
+  box-shadow: -2px 2px 5px #444444;
   display: block;
   color: black;
 }
@@ -89,7 +89,7 @@
 
 .menu-item:hover {
   cursor: pointer;
-  box-shadow: -5px 5px 5px black;
+  box-shadow: -5px 5px 5px #888888;
 }
 
 .menu-item-book {

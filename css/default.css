@@ -18,15 +18,30 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -32rem;
+  height: 2.5rem;
 }
 
 .menu-default li {
   display: inline;
   float: left;
+  height: 2.5rem;
+  
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+  width: 4.5rem;
+  text-align: center;
+
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 2rem;
   font-family: "bigelow_rulesregular";
+  color: white;
+  font-weight: bold;
+}
+
+.menu-default li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* css for the central content div */
