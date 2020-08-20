@@ -14,68 +14,51 @@ body {
     background: #f2d9b7;
 }
 
-/* div for the center of the webpage */
-.center-div {
-    width: 64rem;
-    min-height: 100%;
+.menu-default {
     position: absolute;
-    display: table;
-
-    /* width of 64rem, at most at left boundary */
-    left: -moz-calc(max(0rem, 50% - 32rem));
-    left: -webkit-calc(max(0rem, 50% - 32rem));
-    left: -o-calc(max(0rem, 50% - 32rem));
-    left: calc(max(0rem, 50% - 32rem));
+    left: 50%;
+    margin-left: -32rem;
 }
 
-.left-content-div {
-    top: 0;
+.menu-default li {
+    display: inline;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    font-family: "bigelow_rulesregular";
+}
+
+/* css for the central content div */
+.content {
+    position: absolute;
+    z-index: 0;
+    min-width: 64rem;
+    width: 64rem;
+    left: 0;
+    right: 0;
+    margin: auto;
     min-height: 100%;
-    display: table-cell;
-    padding-bottom: 2rem;
-    font-family: 'Kalam', cursive;
-    font-weight: thin;
-    font-size: 1.25rem;
 }
 
-/* div for the vertical bars in all webpages */
-.vertical-bar {
-    top: 0;
-    width: 2rem;
+/* css for any vertical bars */
+.vertical-color-bar {
+    position: absolute;
     min-height: 100%;
-    display: table-cell;
-    box-shadow: 2px 0px 50x #888888;
+    height: 100%;
+    width: 2.5rem;
+    z-index: 1;
 }
 
-.right-content-div {
-    top: 0;
-    min-height: 100%;
-    display: table-cell;
-    padding-bottom: 2rem;
-    font-family: 'Kalam', cursive;
-    font-weight: thin;
-    font-size: 1.25rem;
-}
-
-.horizontal-bar {
+/* css for any horizontal bars */
+.horizontal-color-bar {
+    position: absolute;
     width: 100%;
     min-width: 64rem;
-    height: 2rem;
-    padding: 0px;
-    position: absolute;
-    box-shadow: 0px 2px 5px #888888;
+    height: 2.5rem;
+    z-index: 2;
 }
 
-/* div css for the headers for each page */
-.header-div {
-    width: 100%;
-    font-family: "bigelow_rulesregular";
-    text-align: center;
-    font-size: 8rem;
-    height: 10rem;
-}
-
-/* css for the new font style */
 @font-face {
     font-family: 'bigelow_rulesregular';
     src: url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.eot');

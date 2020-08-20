@@ -1,30 +1,53 @@
-/* On the home page, the vertical bar is 18rem from the left, 2rem wide */
-
-.left-content-div-home {
-	width: 18rem;
+.home-vertical-bar {
+	background-color: black;
+	margin-left: 18rem;
 }
 
-.right-content-div-home {
-	width: 44rem;
-	left: 20rem;
+
+
+.home-first-bar {
+	background-color: #1ad2aa;
+	top: 1rem;
 }
 
-.horizontal-bar-one-home {
-	top: 10rem;
+.home-second-bar {
+	background-color: #1c60ba;
+	top: 4.5rem;
 }
 
-.horizontal-bar-two-home {
-	top: 13.2rem;
+.home-third-bar {
+	background-color: #8554aa;
+	top: 16rem;
 }
 
-.horizontal-bar-three-home {
-	top: 16.4rem;
+
+
+
+.home-header {
+    width: 43.5rem;
+    font-family: "bigelow_rulesregular";
+    text-align: center;
+    font-size: 7rem;
+    height: 9rem;
+    margin-top: 7rem;
+    margin-left: 20.5rem;
 }
+
+.headshot-photo {
+	width: 22rem;
+	margin-top: 4.5rem;
+	float: right;
+	margin-right: 10.75rem;
+	padding: 0px;
+	box-shadow: -5px 5px 5px;
+}
+
+
 
 .menu-div {
+	float: left;
 	width: 16rem;
-	left: 0rem;
-	margin-top: 9.6rem;
+	margin-top: 4.5rem;
 }
 
 .menu-item {
@@ -39,7 +62,7 @@
 	background-color: #ebc793;
 	margin-bottom: 0.5rem;
 	z-index: 2;
-	box-shadow: -2px 2px 5px #888888;
+	box-shadow: -2px 2px 5px black;
 	display: block;
 	color: black;
 }
@@ -70,7 +93,7 @@
 
 .menu-item:hover {
 	cursor: pointer;
-	box-shadow: -5px 5px 5px #888888;
+	box-shadow: -5px 5px 5px black;
 }
 
 .menu-item-book {
@@ -80,14 +103,6 @@
 	margin-left: 2rem;
 	text-decoration: none;
 	color: inherit;
-}
-
-.headshot-photo {
-	width: 60%;
-	margin-top: 9.6rem;
-	margin-left: 20%;
-	padding: 0px;
-	box-shadow: -5px 5px 5px #888888;
 }
 
 .social-media-icon {
