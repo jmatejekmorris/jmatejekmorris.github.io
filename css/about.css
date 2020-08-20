@@ -1,5 +1,5 @@
 .about-vertical-bar {
-  margin-left: 38rem;
+  margin-left: 39rem;
 }
 
 
@@ -14,6 +14,7 @@
 
 
 
+
 .about-menu-option:hover, .about-menu-selected:hover {
   background-image:url('/images/bars/blue-horizontal-matte-menu-dark.png');
   background-repeat: x-repeat;
@@ -22,17 +23,25 @@
 }
 
 
+
 .about-menu-selected {
   background-image:url('/images/bars/blue-horizontal-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
 
+.about-books-menu li {
+  background-color: #273149;
+}
+
+.about-books-menu li:hover {
+  background-color: #4380E9;
+}
 
 
 
 .about-header {
-    width: 38rem;
+    width: 39rem;
     font-family: "bigelow_rulesregular";
     text-align: center;
     font-size: 7rem;
@@ -45,7 +54,7 @@
 .about-me {
   float: left;
   margin-top: 2.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 36rem;
   text-align: justify;
   font-family: 'Kalam', cursive;
@@ -63,12 +72,12 @@
   margin-top: 2.5rem;
   width: 20rem;
   float: right;
-  padding: 1.75rem;
+  padding: 1.25rem;
 }
 
 .about-image {
   float: right;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.25rem;
   width: 20rem;
   height: 20rem;
   box-shadow: -5px 5px 5px #444444;
