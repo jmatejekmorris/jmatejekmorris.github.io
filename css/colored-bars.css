@@ -1,41 +1,41 @@
 .red-horizontal {
     background-color: #df333f;
-    background-image:url('/images/bars/red-horizontal.png');
+    background-image:url('/images/bars/red-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
 
 .orange-horizontal {
     background-color: #f49324;
-    background-image:url('/images/bars/orange-horizontal.png');
+    background-image:url('/images/bars/orange-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
 
 .green-horizontal {
     background-color: #1ad2aa;
-    background-image:url('/images/bars/green-horizontal.png');
+    background-image:url('/images/bars/green-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
 
 .blue-horizontal {
     background-color: #1c60ba;
-    background-image:url('/images/bars/blue-horizontal.png');
+    background-image:url('/images/bars/blue-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
 
 .purple-horizontal {
     background-color: #8554aa;
-    background-image:url('/images/bars/purple-horizontal.png');
+    background-image:url('/images/bars/purple-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
 
 .yellow-horizontal {
     background-color: #c6ad55;
-    background-image:url('/images/bars/yellow-horizontal.png');
+    background-image:url('/images/bars/yellow-horizontal-updated.png');
     background-repeat: x-repeat;
     background-size: auto 100%;
 }
@@ -47,28 +47,28 @@
 
 .black-vertical {
     background-color: black;
-    background-image:url('/images/bars/black-vertical.png');
+    background-image:url('/images/bars/black-vertical-updated.png');
     background-repeat: y-repeat;
     background-size: 100% auto;
 }
 
 .orange-vertical {
     background-color: #f49324;
-    background-image:url('/images/bars/orange-vertical.png');
+    background-image:url('/images/bars/orange-vertical-updated.png');
     background-repeat: y-repeat;
     background-size: 100% auto;
 }
 
 .purple-vertical {
     background-color: #8554aa;
-    background-image:url('/images/bars/purple-vertical.png');
+    background-image:url('/images/bars/purple-vertical-updated.png');
     background-repeat: y-repeat;
     background-size: 100% auto;
 }
 
 .yellow-vertical {
     background-color: #c6ad55;
-    background-image:url('/images/bars/yellow-vertical.png');
+    background-image:url('/images/bars/yellow-vertical-updated.png');
     background-repeat: y-repeat;
     background-size: 100% auto;
 }
