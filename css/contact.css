@@ -1,20 +1,74 @@
-.left-content-div-contact {
-	width: 64rem;
+.contact-vertical-bar {
+  margin-left: 39rem;
 }
 
-.horizontal-bar-one-contact {
-	top: 10rem;
+
+
+.contact-first-bar {
+  top: 1rem;
 }
 
-.horizontal-bar-two-contact {
-	top: 13.2rem;
+.contact-second-bar {
+  top: 12.5rem;
 }
 
-.horizontal-bar-three-contact {
-	top: 16.4rem;
+.contact-third-bar {
+  top: 16.5rem;
 }
 
-.about-me-div {
-	padding: 1rem;
-	padding-top: 9.6rem;
+
+
+.contact-menu-option:hover, .contact-menu-selected:hover {
+  background-image:url('/images/bars/red-horizontal-matte-menu-dark.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+
+
+.contact-menu-selected {
+  background-image:url('/images/bars/red-horizontal-matte-menu-light.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.contact-books-menu li {
+  background-color: #942B30;
+}
+
+.contact-books-menu li:hover {
+  background-color: #FD525D;
+}
+
+
+
+.contact-header {
+  width: 64rem;
+  font-family: "bigelow_rulesregular";
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+
+.contact-information {
+  margin-top: 2rem;
+  font-family: 'Kalam', cursive;
+}
+
+.contact-information a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-picture {
+  width: 100%;
+}
+
+.contact-picture-div {
+  margin-top: 8rem;
+  margin-bottom: 0.25rem;
+  margin-left: 20rem;
+  width: 24rem;
 }
