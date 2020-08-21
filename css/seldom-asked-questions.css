@@ -1,0 +1,76 @@
+.seldom-vertical-bar {
+  margin-left: 54rem;
+}
+
+
+
+.seldom-first-bar {
+  top: 1rem;
+}
+
+.seldom-second-bar {
+  top: 12.5rem;
+}
+
+
+
+
+.seldom-menu-option:hover, .seldom-menu-selected:hover {
+  background-image:url('/images/bars/green-horizontal-matte-menu-dark.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+
+
+.seldom-menu-selected {
+  background-image:url('/images/bars/green-horizontal-matte-menu-light.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.seldom-books-menu li {
+  background-color: #22886F;
+}
+
+.seldom-books-menu li:hover {
+  background-color: #3BFDCE;
+}
+
+
+
+.seldom-header {
+  width: 54rem;
+  font-family: "bigelow_rulesregular";
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+
+.seldom-div {
+  margin-top: 2.5rem;
+  width: 50rem;
+  padding: 2rem;
+  text-align: justify;
+  font-family: 'Kalam', cursive;
+}
+
+.seldom-div a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+.seldom-picture {
+  width: 100%;
+}
+
+.seldom-picture-div {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 15rem;
+  width: 20rem;
+}

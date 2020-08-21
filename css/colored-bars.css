@@ -72,3 +72,10 @@
   background-repeat: y-repeat;
   background-size: 100% auto;
 }
+
+.blue-vertical {
+  background-color: #1c60ba;
+  background-image:url('/images/bars/blue-vertical-matte.png');
+  background-repeat: y-repeat;
+  background-size: 100% auto;
+}
