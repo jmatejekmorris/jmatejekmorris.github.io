@@ -40,6 +40,13 @@
   background-size: auto 100%;
 }
 
+.brown-horizontal {
+  background-color: #b27949;
+  background-image:url('/images/bars/brown-horizontal-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
 
 
 

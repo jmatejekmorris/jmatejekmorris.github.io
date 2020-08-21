@@ -1,0 +1,61 @@
+.imaginary-first-bar {
+  top: 1rem;
+}
+
+.imaginary-second-bar {
+  top: 12rem;
+}
+
+.imaginary-third-bar {
+  top: 16rem;
+}
+
+.imaginary-header {
+  width: 64rem;
+  font-family: "bigelow_rulesregular";
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+
+
+.imaginary-menu-option:hover, .imaginary-menu-selected:hover {
+  background-image:url('/images/bars/red-horizontal-matte-menu-dark.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+
+
+.imaginary-menu-selected {
+  background-image:url('/images/bars/red-horizontal-matte-menu-light.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.imaginary-books-menu li {
+  background-color: #942B30;
+}
+
+.imaginary-books-menu li:hover {
+  background-color: #FD525D;
+}
+
+.imaginary-book-image {
+  margin-top: 8.5rem;
+  float: left;
+  margin-left: 1rem;
+  width: 26rem;
+  box-shadow: -2px 2px 5px #888888;
+}
+
+.imaginary-blurb {
+  margin-top: 8.5rem;
+  width: 34rem;
+  margin-right: 1rem;
+  float: right;
+  text-align: justify;
+  font-family: 'Kalam', cursive;
+}

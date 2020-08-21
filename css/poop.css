@@ -1,0 +1,61 @@
+.poop-first-bar {
+  top: 1rem;
+}
+
+.poop-second-bar {
+  top: 12rem;
+}
+
+.poop-third-bar {
+  top: 16rem;
+}
+
+.poop-header {
+  width: 64rem;
+  font-family: "bigelow_rulesregular";
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+
+
+.poop-menu-option:hover, .imaginary-menu-selected:hover {
+  background-image:url('/images/bars/brown-horizontal-matte-menu-dark.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+
+
+.poop-menu-selected {
+  background-image:url('/images/bars/brown-horizontal-matte-menu-light.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.poop-books-menu li {
+  background-color: #775135;
+}
+
+.poop-books-menu li:hover {
+  background-color: #DC9A66;
+}
+
+.poop-book-image {
+  margin-top: 8.5rem;
+  float: left;
+  margin-left: 1rem;
+  width: 26rem;
+  box-shadow: -2px 2px 5px #888888;
+}
+
+.poop-blurb {
+  margin-top: 8.5rem;
+  width: 34rem;
+  margin-right: 1rem;
+  float: right;
+  text-align: justify;
+  font-family: 'Kalam', cursive;
+}
