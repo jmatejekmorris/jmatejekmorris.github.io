@@ -6,6 +6,8 @@ function ExpandBooks() {
 		}
 		else {
 			book_items[i].style.display = 'block';
+
+      book_items[i].classList.add('blur');
 		}
 	}
 }
