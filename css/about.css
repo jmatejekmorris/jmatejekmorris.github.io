@@ -68,20 +68,180 @@
 
 
 
-.about-images {
-  margin-top: 2.5rem;
-  width: 20rem;
-  float: right;
-  padding: 1.25rem;
-}
-
 .about-image {
   float: right;
-  margin-bottom: 1.25rem;
-  width: 20rem;
-  height: 20rem;
-  box-shadow: -5px 5px 5px #444444;
+  width: 16rem;
+  height: 16rem;
 }
+
+
+
+.about-images {
+  float: right;
+  width: 23.5rem;
+  color: gray;
+  font-family: oswald;
+}
+
+/* inspired by https://codepen.io/joshbader/pen/fFLno */
+#cube_one_container {
+  background-color: white;
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_one {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_one figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_one .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_one .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_one .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_one .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_one .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_one .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
+#cube_two_container {
+  background-color: white;
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_two {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_two figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_two .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_two .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_two .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_two .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_two .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_two .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
+#cube_three_container {
+  background-color: white;
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_three {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_three figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_three .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_three .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_three .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_three .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_three .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_three .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
+.blur { animation: blur 250ms; }
+
+@keyframes blur {
+    0% { -webkit-filter: blur(0px); }
+    50% { -webkit-filter: blur(5px); }
+    100% { -webkit-filter: blur(0px); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*.left-content-div-about {
