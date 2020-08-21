@@ -85,7 +85,6 @@
 
 /* inspired by https://codepen.io/joshbader/pen/fFLno */
 #cube_one_container {
-  background-color: white;
   position: relative;
   width: 16rem;
   height: 16rem;
@@ -123,7 +122,6 @@
 #cube_one .bottom { transform: rotateX(-90deg) translateZ(8rem); }
 
 #cube_two_container {
-  background-color: white;
   position: relative;
   width: 16rem;
   height: 16rem;
@@ -161,7 +159,6 @@
 #cube_two .bottom { transform: rotateX(-90deg) translateZ(8rem); }
 
 #cube_three_container {
-  background-color: white;
   position: relative;
   width: 16rem;
   height: 16rem;
