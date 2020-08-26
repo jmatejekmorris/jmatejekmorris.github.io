@@ -59,12 +59,13 @@
 }
 
 .contact-information a {
-  text-decoration: none;
+  text-decoration: underline;
   color: inherit;
 }
 
 .contact-picture {
   width: 100%;
+  box-shadow: -5px 5px 5px #444444;
 }
 
 .contact-picture-div {
