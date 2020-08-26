@@ -42,9 +42,9 @@
 
 .seldom-header {
   width: 54rem;
-  font-family: "bigelow_rulesregular";
+  font-family: "Abel", sans-serif;
   text-align: center;
-  font-size: 7rem;
+  font-size: 5rem;
   height: 9rem;
   margin-top: 3.5rem;
 }
@@ -54,7 +54,7 @@
   width: 50rem;
   padding: 2rem;
   text-align: justify;
-  font-family: 'Kalam', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .seldom-div a {
