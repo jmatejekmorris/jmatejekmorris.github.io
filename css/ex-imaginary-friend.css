@@ -60,3 +60,8 @@
   font-family: 'Kalam', cursive;
   font-size: 1rem;
 }
+
+.book-link {
+  color: inherit;
+  text-decoration: underline;
+}
