@@ -115,20 +115,6 @@ body {
   box-shadow: -2px 2px 2px #444444;
 }
 
-@font-face {
-  font-family: 'bigelow_rulesregular';
-  src: url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.eot');
-  src: url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.woff2') format('woff2'),
-  url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.woff') format('woff'),
-  url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.ttf') format('truetype'),
-  url('/fonts/Bigelow_Rules/bigelowrules-regular-webfont.svg#bigelow_rulesregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
 /* css for buy options for all books */
 .buy-at-options {
   margin-top: 2rem;

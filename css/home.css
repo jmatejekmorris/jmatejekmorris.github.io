@@ -20,13 +20,13 @@
 
 
 .home-header {
-    width: 43.5rem;
-    font-family: "bigelow_rulesregular";
-    text-align: center;
-    font-size: 7rem;
-    height: 9rem;
-    margin-top: 7rem;
-    margin-left: 20.5rem;
+  width: 43.5rem;
+  font-family: 'Bigelow Rules', cursive;
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 7rem;
+  margin-left: 20.5rem;
 }
 
 .headshot-photo {
@@ -48,7 +48,7 @@
 
 .menu-item {
   text-align: center;
-  font-family: "bigelow_rulesregular";
+  font-family: 'Bigelow Rules', cursive;
   font-size: 3.75rem;
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
@@ -65,7 +65,7 @@
 
 .social-menu-item {
   text-align: center;
-  font-family: "bigelow_rulesregular";
+  font-family: 'Bigelow Rules', cursive;
   font-size: 3.75rem;
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
