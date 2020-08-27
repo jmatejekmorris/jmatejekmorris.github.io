@@ -19,7 +19,7 @@
 
 
 .contact-menu-option:hover, .contact-menu-selected:hover {
-  background-image:url('/images/bars/red-horizontal-matte-menu-dark.png');
+  background-image:url('/images/bars/maroon-horizontal-contact-matte-menu-dark.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -28,17 +28,17 @@
 
 
 .contact-menu-selected {
-  background-image:url('/images/bars/red-horizontal-matte-menu-light.png');
+  background-image:url('/images/bars/maroon-horizontal-contact-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
 
 .contact-books-menu li {
-  background-color: #942B30;
+  background-color: #4B2F35;
 }
 
 .contact-books-menu li:hover {
-  background-color: #FD525D;
+  background-color: #B46278;
 }
 
 

@@ -12,3 +12,10 @@ Don't Say Poop Blue:
 	#67CEEE
 Don't Say Poop Green:
 	#A3DB0B
+
+Contact Maroon:
+	#8F465A
+Contact Green:
+	#6C9B7A
+Contact Blue:
+	#567B96

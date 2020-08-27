@@ -89,6 +89,26 @@
   background-size: auto 100%;
 }
 
+.maroon-horizontal-contact {
+  background-color: #F17B51;
+  background-image:url('/images/bars/maroon-horizontal-contact-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.green-horizontal-contact {
+  background-color: #6C9B7A;
+  background-image:url('/images/bars/green-horizontal-contact-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.blue-horizontal-contact {
+  background-color: #567B96;
+  background-image:url('/images/bars/blue-horizontal-contact-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
 
 
 
