@@ -21,7 +21,7 @@
 
 
 .imaginary-menu-option:hover, .imaginary-menu-selected:hover {
-  background-image:url('/images/bars/red-horizontal-matte-menu-dark.png');
+  background-image:url('/images/bars/orange-horizontal-my-ex-imaginary-friend-matte-menu-dark.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -30,17 +30,17 @@
 
 
 .imaginary-menu-selected {
-  background-image:url('/images/bars/red-horizontal-matte-menu-light.png');
+  background-image:url('/images/bars/orange-horizontal-my-ex-imaginary-friend-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
 
 .imaginary-books-menu li {
-  background-color: #942B30;
+  background-color: #AD5B3F;
 }
 
 .imaginary-books-menu li:hover {
-  background-color: #FD525D;
+  background-color: #FD9E6E;
 }
 
 .imaginary-book-image {

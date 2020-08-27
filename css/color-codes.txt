@@ -1,0 +1,6 @@
+Ex-Imaginary Friend Orange:
+	#F17B51
+Ex-Imaginary Friend Blue:
+	#73B2C0
+Ex-Imaginary Friend Gray:
+	#3C4B4C

@@ -26,6 +26,13 @@
   background-size: auto 100%;
 }
 
+.black-horizontal {
+  background-color: black;
+  background-image:url('/images/bars/black-horizontal-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
 .purple-horizontal {
   background-color: #8554aa;
   background-image:url('/images/bars/purple-horizontal-matte.png');
@@ -43,6 +50,27 @@
 .brown-horizontal {
   background-color: #b27949;
   background-image:url('/images/bars/brown-horizontal-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.orange-horizontal-my-ex-imaginary-friend {
+  background-color: #F17B51;
+  background-image:url('/images/bars/orange-horizontal-my-ex-imaginary-friend-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.blue-horizontal-my-ex-imaginary-friend {
+  background-color: #107989;
+  background-image:url('/images/bars/blue-horizontal-my-ex-imaginary-friend-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.gray-horizontal-my-ex-imaginary-friend {
+  background-color: #3C4B4C;
+  background-image:url('/images/bars/gray-horizontal-my-ex-imaginary-friend-matte.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }

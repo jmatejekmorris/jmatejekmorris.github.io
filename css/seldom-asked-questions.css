@@ -65,6 +65,7 @@
 
 .seldom-picture {
   width: 100%;
+  box-shadow: -5px 5px 5px #444444;
 }
 
 .seldom-picture-div {
