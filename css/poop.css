@@ -20,8 +20,8 @@
 }
 
 
-.poop-menu-option:hover, .imaginary-menu-selected:hover {
-  background-image:url('/images/bars/brown-horizontal-matte-menu-dark.png');
+.poop-menu-option:hover, .poop-menu-selected:hover {
+  background-image:url('/images/bars/brown-horizontal-dont-say-poop-matte-menu-dark.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -30,17 +30,17 @@
 
 
 .poop-menu-selected {
-  background-image:url('/images/bars/brown-horizontal-matte-menu-light.png');
+  background-image:url('/images/bars/brown-horizontal-dont-say-poop-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
 
 .poop-books-menu li {
-  background-color: #775135;
+  background-color: #593F2C;
 }
 
 .poop-books-menu li:hover {
-  background-color: #DC9A66;
+  background-color: #AA7B58;
 }
 
 .poop-book-image {

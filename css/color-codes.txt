@@ -4,3 +4,11 @@ Ex-Imaginary Friend Blue:
 	#73B2C0
 Ex-Imaginary Friend Gray:
 	#3C4B4C
+
+
+Don't Say Poop Brown:
+	#B27949
+Don't Say Poop Blue:
+	#67CEEE
+Don't Say Poop Green:
+	#A3DB0B

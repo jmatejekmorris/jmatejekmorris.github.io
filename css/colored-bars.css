@@ -47,9 +47,23 @@
   background-size: auto 100%;
 }
 
-.brown-horizontal {
+.green-horizontal-dont-say-poop {
+  background-color: #A3DB0B;
+  background-image:url('/images/bars/green-horizontal-dont-say-poop-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.blue-horizontal-dont-say-poop {
+  background-color: #67CEEE;
+  background-image:url('/images/bars/blue-horizontal-dont-say-poop-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.brown-horizontal-dont-say-poop {
   background-color: #b27949;
-  background-image:url('/images/bars/brown-horizontal-matte.png');
+  background-image:url('/images/bars/brown-horizontal-dont-say-poop-matte.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
