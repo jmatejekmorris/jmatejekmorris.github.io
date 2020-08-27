@@ -16,7 +16,7 @@
 
 
 .frequently-menu-option:hover, .frequently-menu-selected:hover {
-  background-image:url('/images/bars/red-horizontal-matte-menu-dark.png');
+  background-image:url('/images/bars/dark-red-horizontal-matte-menu-dark.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -25,7 +25,7 @@
 
 
 .frequently-menu-selected {
-  background-image:url('/images/bars/red-horizontal-matte-menu-light.png');
+  background-image:url('/images/bars/dark-red-horizontal-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }

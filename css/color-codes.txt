@@ -19,3 +19,9 @@ Contact Green:
 	#6C9B7A
 Contact Blue:
 	#567B96
+
+Dark Green:
+	#1F8269
+
+Dark Red:
+	#A31F31

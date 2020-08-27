@@ -5,6 +5,13 @@
   background-size: auto 100%;
 }
 
+.dark-red-horizontal {
+  background-color: #A31F31;
+  background-image:url('/images/bars/dark-red-horizontal-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
 .orange-horizontal {
   background-color: #f49324;
   background-image:url('/images/bars/orange-horizontal-matte.png');
@@ -15,6 +22,13 @@
 .green-horizontal {
   background-color: #1ad2aa;
   background-image:url('/images/bars/green-horizontal-matte.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.dark-green-horizontal {
+  background-color: #1F8269;
+  background-image:url('/images/bars/dark-green-horizontal-matte.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }

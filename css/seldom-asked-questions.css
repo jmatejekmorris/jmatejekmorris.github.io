@@ -16,7 +16,7 @@
 
 
 .seldom-menu-option:hover, .seldom-menu-selected:hover {
-  background-image:url('/images/bars/green-horizontal-matte-menu-dark.png');
+  background-image:url('/images/bars/dark-green-horizontal-matte-menu-dark.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
   cursor: pointer;
@@ -25,17 +25,17 @@
 
 
 .seldom-menu-selected {
-  background-image:url('/images/bars/green-horizontal-matte-menu-light.png');
+  background-image:url('/images/bars/dark-green-horizontal-matte-menu-light.png');
   background-repeat: x-repeat;
   background-size: auto 100%;
 }
 
 .seldom-books-menu li {
-  background-color: #22886F;
+  background-color: #23463B;
 }
 
 .seldom-books-menu li:hover {
-  background-color: #3BFDCE;
+  background-color: #41A589;
 }
 
 
