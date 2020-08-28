@@ -80,7 +80,7 @@ body {
 
 
 /* css for the central content div */
-.content {
+#content {
   position: absolute;
   z-index: 0;
   min-width: 64rem;
@@ -88,7 +88,7 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  min-height: 100%;
+  min-height: 100vh;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.25rem;
 }
