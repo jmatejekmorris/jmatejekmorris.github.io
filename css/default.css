@@ -78,7 +78,7 @@ body {
 
 
 /* css for the central content div */
-.content {
+#content {
   position: absolute;
   z-index: 0;
   min-width: 64rem;
