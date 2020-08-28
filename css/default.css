@@ -54,24 +54,22 @@ body {
   height: 100%;
 }
 
-.books-menu-dropdown:hover .books-menu-default {
-  display: block;
-}
-
-.books-menu-default {
+#books-menu-default {
   display: none;
+  min-width: 16rem;
+
 }
 
-.books-menu-default li {
+#books-menu-default li {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   height: 2rem;
-  min-width: 16rem;
+  width: 100%;
   float: left;
   font-size: 1.25rem;
 }
 
-.books-menu-default li a {
+#books-menu-default li a {
   text-decoration: none;
   color: inherit;
   display: block;

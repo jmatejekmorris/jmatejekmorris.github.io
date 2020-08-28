@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="/css/default.css"/>
   <link rel="stylesheet" href="/css/seldom-asked-questions.css"/>
   <link rel="stylesheet" href="/css/colored-bars.css"/>
+  <script src="/scripts/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="scripts/default.js"></script>
 </head>
 
 <body>
@@ -13,8 +15,8 @@
       <ul class="menu-default">
         <li class="seldom-menu-option"><a href="/index.html"><span class="menu-default-span">Home</span></a></li>
         <li class="seldom-menu-option"><a href="/about.html"><span class="menu-default-span">About Me</span></a></li>
-        <li class="seldom-menu-option books-menu-dropdown"><a><span class="menu-default-span">Books</span></a>
-            <ul class="books-menu-default seldom-books-menu">
+        <li onclick="ExpandTopMenuBooks()" class="seldom-menu-option books-menu-dropdown"><a><span class="menu-default-span">Books</span></a>
+            <ul id="books-menu-default" class="seldom-books-menu">
               <li><a href="/my-ex-imaginary-friend.html"><span class="menu-default-span">My Ex-Imaginary Friend</span></a></li>
               <li><a href="/dont-say-poop.html"><span class="menu-default-span">Don't Say Poop!</span></a></li>
             </ul>
