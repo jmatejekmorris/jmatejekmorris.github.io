@@ -2,8 +2,6 @@ window.onload = updateContentDiv();
 
 window.addEventListener('resize', updateContentDiv);
 
-
-
 function updateContentDiv() {
 	var height = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 
