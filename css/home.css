@@ -99,7 +99,6 @@
 }
 
 .menu-item-book {
-  display: none;
   font-size: 2rem;
   width: 14rem;
   margin-left: 2rem;
@@ -111,6 +110,10 @@
   -moz-user-select: none; /* Old versions of Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+#books-container-div {
+  display: none;
 }
 
 .social-media-icon {
