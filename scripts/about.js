@@ -1,6 +1,7 @@
 window.cube_one_rotation = 0;
 window.cube_two_rotation = 0;
 window.cube_three_rotation = 0;
+window.cube_four_rotation = 0;
 
 
 /* shuffle array used Fisher-Yates (aka Knuth) Shuffle */
@@ -57,6 +58,8 @@ window.onload = function() {
   cube_one_face_four.alt = cube_one_descriptions[cube_one_images[3]];
   cube_one_face_four.title = cube_one_descriptions[cube_one_images[3]];
 
+
+
   cube_two_images = shuffle(["/images/about/Photo2A.jpeg", "/images/about/Photo2B.jpeg", "/images/about/Photo2C.jpeg", "/images/about/Photo2D.jpeg"]);
 
   cube_two_descriptions = {
@@ -86,6 +89,8 @@ window.onload = function() {
   cube_two_face_four.alt = cube_two_descriptions[cube_two_images[3]];
   cube_two_face_four.title = cube_two_descriptions[cube_two_images[3]];
 
+
+
   cube_three_images = shuffle(["/images/about/Photo3A.jpeg", "/images/about/Photo3B.jpeg", "/images/about/Photo3C.jpeg", "/images/about/Photo3D.jpeg"]);
 
   cube_three_descriptions = {
@@ -114,6 +119,37 @@ window.onload = function() {
   cube_three_face_four.src = cube_three_images[3];
   cube_three_face_four.alt = cube_three_descriptions[cube_three_images[3]];
   cube_three_face_four.title = cube_three_descriptions[cube_three_images[3]];
+
+
+
+  cube_four_images = shuffle(["/images/about/Photo4A.jpeg", "/images/about/Photo4B.jpeg", "/images/about/Photo4C.jpeg", "/images/about/Photo4D.jpeg"]);
+
+  cube_four_descriptions = {
+    "/images/about/Photo4A.jpeg": "Jimmy and his husband Scott at the 2019 Boston Pride parade. Jimmy and Scott wear purple custom t-shirts featuring Mr. Ratburn and his husband from Arthur. In the background, there is a rainbow arch of balloons.",
+    "/images/about/Photo4B.jpeg": "Jimmy and Scott in a Hawaiian rainforest. This picture, from their honeymoon in January 2016, shows lush green foliage and a waterfall trickling in the background.",
+    "/images/about/Photo4C.jpeg": "Jimmy, his husband, and his brothers are dressed in tuxedos and holding drinks in celebration of his sister's wedding. Pictured are brother Michael, husband Scott, Jimmy, brother Brian, and brother Robert, in that order.",
+    "/images/about/Photo4D.jpeg": "A very excited Jimmy is hugging a reindeer costumed character from the Walt Disney World Christmas party."
+  };
+
+  var cube_four_face_one = document.getElementById('cube_four_face_one');
+  cube_four_face_one.src = cube_four_images[0];
+  cube_four_face_one.alt = cube_four_descriptions[cube_four_images[0]];
+  cube_four_face_one.title = cube_four_descriptions[cube_four_images[0]];
+
+  var cube_four_face_two = document.getElementById('cube_four_face_two');
+  cube_four_face_two.src = cube_four_images[1];
+  cube_four_face_two.alt = cube_four_descriptions[cube_four_images[1]];
+  cube_four_face_two.title = cube_four_descriptions[cube_four_images[1]];
+
+  var cube_four_face_three = document.getElementById('cube_four_face_three');
+  cube_four_face_three.src = cube_four_images[2];
+  cube_four_face_three.alt = cube_four_descriptions[cube_four_images[2]];
+  cube_four_face_three.title = cube_four_descriptions[cube_four_images[2]];
+
+  var cube_four_face_four = document.getElementById('cube_four_face_four');
+  cube_four_face_four.src = cube_four_images[3];
+  cube_four_face_four.alt = cube_four_descriptions[cube_four_images[3]];
+  cube_four_face_four.title = cube_four_descriptions[cube_four_images[3]];
 
 
 
@@ -171,7 +207,7 @@ window.onload = function() {
 
 
 
-    /* css code for cube three */
+  /* css code for cube three */
   var cube_three = document.getElementById('cube_three');
 
   cube_three.onclick = function() {
@@ -192,6 +228,31 @@ window.onload = function() {
 
     setTimeout(function() {
       cube_three_container.classList.remove('blur');
+    }, 250);
+  };
+
+
+  /* css code for cube four */
+  var cube_four = document.getElementById('cube_four');
+
+  cube_four.onclick = function() {
+
+    window.cube_four_rotation += 90;
+
+    var cube_four_container = document.getElementById('cube_four_container');
+
+    var t_str = 'rotateY(' + window.cube_four_rotation + 'deg)';
+
+    cube_four.classList.add('spin');
+
+    cube_four.style.transform = t_str;
+    cube_four.style.webkitTransform = t_str;
+    cube_four.style.mozTransform = t_str;
+
+    cube_four_container.classList.add('blur');
+
+    setTimeout(function() {
+      cube_four_container.classList.remove('blur');
     }, 250);
   };
 

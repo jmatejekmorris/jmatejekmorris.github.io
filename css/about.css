@@ -193,6 +193,43 @@
 #cube_three .top { transform: rotateX(90deg) translateZ(8rem); }
 #cube_three .bottom { transform: rotateX(-90deg) translateZ(8rem); }
 
+#cube_four_container {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_four {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_four figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_four .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_four .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_four .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_four .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_four .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_four .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
 .blur { animation: blur 250ms; }
 
 @keyframes blur {
