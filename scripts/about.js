@@ -63,7 +63,7 @@ window.onload = function() {
   cube_two_images = shuffle(["/images/about/Photo2A.jpeg", "/images/about/Photo2B.jpeg", "/images/about/Photo2C.jpeg", "/images/about/Photo2D.jpeg"]);
 
   cube_two_descriptions = {
-    "/images/about/Photo2A.jpeg": "A picture of Jimmy and Oscar the Grouch, taken at the New York Public Library as part of their exhibit celebrating the forty-fifth anniversary of Sesame Street.",
+    "/images/about/Photo2A.jpeg": "A picture of Jimmy and Oscar the Grouch, taken at the New York Public Library as part of their exhibit celebrating the forty-fifth anniversary of Sesame Street. Photo taken by Travis Denman.",
     "/images/about/Photo2B.jpeg": "Jimmy and his husband Scott dressed as Lady and the Tramp for Halloween. Jimmy (as the Tramp) holds their dog, a Poodle Pomeranian named Rudy who is dressed as a plate of spaghetti. A piece of yarn spaghetti extends from Rudy's costume to the mouths of both Jimmy and Scott.",
     "/images/about/Photo2C.jpeg": "Jimmy in a winter coat standing in a patch of evergreen trees with his parents' beloved dog, a Boston Terrier named Heidi.",
     "/images/about/Photo2D.jpeg": "Jimmy looking very excited and maybe a little afraid as a yellow and green budgie bird has landed on his hand as part of the interactive exhibit at the Franklin Park Zoo.",
