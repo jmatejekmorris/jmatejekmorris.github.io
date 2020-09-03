@@ -53,6 +53,8 @@
 }
 
 .contact-information {
+  width: 40rem;
+  margin-left: 12rem;
   margin-top: 2rem;
   text-align: center;
 }
