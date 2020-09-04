@@ -244,6 +244,81 @@
 #cube_four .top { transform: rotateX(90deg) translateZ(8rem); }
 #cube_four .bottom { transform: rotateX(-90deg) translateZ(8rem); }
 
+#cube_five_container {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_five {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_five figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_five .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_five .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_five .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_five .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_five .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_five .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
+#cube_six_container {
+  position: relative;
+  width: 16rem;
+  height: 16rem;
+
+  margin-top: 6rem;
+  margin-left: 4.25rem;
+
+  perspective: 1000px;
+}
+
+#cube_six {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 250ms;
+}
+
+#cube_six figure {
+    position: absolute;
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    border: 0.125rem solid #444444;
+    cursor: pointer;
+}
+
+#cube_six .front { transform: rotateY(0deg) translateZ(8rem); }
+#cube_six .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_six .right { transform: rotateY(90deg) translateZ(8rem); }
+#cube_six .left { transform: rotateY(-90deg) translateZ(8rem); }
+#cube_six .top { transform: rotateX(90deg) translateZ(8rem); }
+#cube_six .bottom { transform: rotateX(-90deg) translateZ(8rem); }
+
+
 .blur { animation: blur 250ms; }
 
 @keyframes blur {
