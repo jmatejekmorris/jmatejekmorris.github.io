@@ -37,7 +37,7 @@ window.onload = function() {
     "/images/about/Photo1A.jpeg": "Jimmy as a small child sitting on a bench between his brother Michael and sister Megan. All three are wearing matching overalls.",
     "/images/about/Photo1B.jpeg": "Jimmy around age seven in the arms of a dragon statue.",
     "/images/about/Photo1C.jpeg": "Jimmy at approximately four years old. Dressed in khaki overalls and running across his grandparents' lawn with a Donald Duck toy above his head.",
-    "/images/about/Photo1D.jpeg": "Jimmy from a middle school play, Peter Pan. He is dressed as a Lost Boy in a ragged outfit with messy hair and dirt smudged across his face."
+    "/images/about/Photo1D.jpeg": "A young Jimmy rests his head on his hands with a large grin on his face. He sits on his father's lap as his sister Megan looks on to one side.",
   };
 
   var cube_one_face_one = document.getElementById('cube_one_face_one');
@@ -65,10 +65,10 @@ window.onload = function() {
   cube_two_images = shuffle(["/images/about/Photo2A.jpeg", "/images/about/Photo2B.jpeg", "/images/about/Photo2C.jpeg", "/images/about/Photo2D.jpeg"]);
 
   cube_two_descriptions = {
-    "/images/about/Photo2A.jpeg": "A young Jimmy rests his head on his hands with a large grin on his face. He sits on his father's lap as his sister Megan looks on to one side.",
-    "/images/about/Photo2B.jpeg": "A young Jimmy stands by the front door of his house wearing a pair of overall shorts. He clutches the door handle and strikes a pose for his traditional First Day of School photo.",
-    "/images/about/Photo2C.jpeg": "A young Jimmy sits on the stairs with his brother Michael and sister Megan. They are wearing swimsuits and have huge grins on their faces.",
-    "/images/about/Photo2D.jpeg": "A photo of Jimmy and his family taken at exactly midnight on January 1, 2000. His family are all celebrating as they watch the TV. Shown from left to right are Jimmy, his father, brother Brian, his mother, brother Michael, sister Megan, and brother Robert.",
+    "/images/about/Photo2A.jpeg": "A young Jimmy stands by the front door of his house wearing a pair of overall shorts. He clutches the door handle and strikes a pose for his traditional First Day of School photo.",
+    "/images/about/Photo2B.jpeg": "A young Jimmy sits on the stairs with his brother Michael and sister Megan. They are wearing swimsuits and have huge grins on their faces.",
+    "/images/about/Photo2C.jpeg": "A photo of Jimmy and his family taken at exactly midnight on January 1, 2000. His family are all celebrating as they watch the TV. Shown from left to right are Jimmy, his father, brother Brian, his mother, brother Michael, sister Megan, and brother Robert.",
+    "/images/about/Photo2D.jpeg": "Jimmy from a middle school play, Peter Pan. He is dressed as a Lost Boy in a ragged outfit with messy hair and dirt smudged across his face."
   };
 
   var cube_two_face_one = document.getElementById('cube_two_face_one');
