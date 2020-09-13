@@ -192,7 +192,7 @@ window.onload = function() {
     "/images/about/Photo6A.jpeg": "Jimmy bends down to fit beneath a tree's branches as he picks apples.",
     "/images/about/Photo6B.jpeg": "Jimmy and his friends greet a screaming velociraptor at Universal Studios in Orlando. Shown from left to right are Jimmy's friend Courtney, Jimmy, the velociraptor, husband Scott, and friend Marie.",
     "/images/about/Photo6C.jpeg": "Jimmy very fancily drinks a soda with his pinky out. His t-shirt features Pixar icon, Bing Bong.",
-    "/images/about/Photo6D.jpeg": "Jimmy and his friend Dawn in matching bright blue t-shirts pause to take a selfie as they climb the Hollywood hills."
+    "/images/about/Photo6D.jpeg": "Jimmy and his four siblings meet at Baseball Tavern in Boston to share a drink. Shown from left to right are Robert, Brian, Michael, Megan, and Jimmy."
   };
 
   var cube_six_face_one = document.getElementById('cube_six_face_one');
