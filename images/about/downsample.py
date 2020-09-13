@@ -1,5 +1,6 @@
 import os
 import glob
+import numpy as np
 
 
 from skimage import io, transform
@@ -9,7 +10,7 @@ from skimage import io, transform
 if not os.path.exists('full-resolution-images'):
     os.mkdir('full-resolution-images')
 
-filenames = glob.glob('*jpeg')
+filenames = sorted(glob.glob('*jpeg'))
 
 for filename in filenames:
     image = io.imread(filename)
@@ -17,6 +18,6 @@ for filename in filenames:
     new_filename = 'full-resolution-images/{}'.format(filename)
     os.rename(filename, new_filename)
 
-    image_resized = transform.resize(image, (400, 400))
+    image_resized = transform.resize(image, (800, 800))
 
     io.imsave(filename, image_resized)
