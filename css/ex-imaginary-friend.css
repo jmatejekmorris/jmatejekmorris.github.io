@@ -27,7 +27,12 @@
   cursor: pointer;
 }
 
-
+.reviews-section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
 
 .imaginary-menu-selected {
   background-image:url('/images/bars/orange-horizontal-my-ex-imaginary-friend-matte-menu-light.png');
