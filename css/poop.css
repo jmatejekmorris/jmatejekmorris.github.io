@@ -27,7 +27,12 @@
   cursor: pointer;
 }
 
-
+.reviews-section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
 
 .poop-menu-selected {
   background-image:url('/images/bars/brown-horizontal-dont-say-poop-matte-menu-light.png');
