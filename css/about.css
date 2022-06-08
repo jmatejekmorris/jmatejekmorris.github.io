@@ -127,7 +127,7 @@
 }
 
 #cube_one .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_one .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_one .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_one .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_one .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_one .top { transform: rotateX(90deg) translateZ(8rem); }
@@ -164,7 +164,7 @@
 }
 
 #cube_two .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_two .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_two .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_two .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_two .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_two .top { transform: rotateX(90deg) translateZ(8rem); }
@@ -201,7 +201,7 @@
 }
 
 #cube_three .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_three .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_three .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_three .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_three .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_three .top { transform: rotateX(90deg) translateZ(8rem); }
@@ -238,7 +238,7 @@
 }
 
 #cube_four .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_four .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_four .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_four .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_four .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_four .top { transform: rotateX(90deg) translateZ(8rem); }
@@ -275,7 +275,7 @@
 }
 
 #cube_five .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_five .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_five .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_five .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_five .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_five .top { transform: rotateX(90deg) translateZ(8rem); }
@@ -312,7 +312,7 @@
 }
 
 #cube_six .front { transform: rotateY(0deg) translateZ(8rem); }
-#cube_six .back { transform: rotateX(180deg) translateZ(8rem); }
+#cube_six .back { transform: rotateX(180deg) scaleX(-1) translateZ(8rem); }
 #cube_six .right { transform: rotateY(90deg) translateZ(8rem); }
 #cube_six .left { transform: rotateY(-90deg) translateZ(8rem); }
 #cube_six .top { transform: rotateX(90deg) translateZ(8rem); }
