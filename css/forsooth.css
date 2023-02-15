@@ -1,0 +1,70 @@
+.forsooth-first-bar {
+  top: 1rem;
+}
+
+.forsooth-second-bar {
+  top: 12rem;
+}
+
+.forsooth-third-bar {
+  top: 16rem;
+}
+
+.forsooth-header {
+  width: 64rem;
+  font-family: 'Bigelow Rules';
+  text-align: center;
+  font-size: 7rem;
+  height: 9rem;
+  margin-top: 3.5rem;
+}
+
+
+.forsooth-menu-option:hover, .forsooth-menu-selected:hover {
+  background-image:url('/images/bars/forsooth-navy-dark.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+}
+
+.reviews-section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.forsooth-menu-selected {
+  background-image:url('/images/bars/forsooth-navy-light.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.forsooth-books-menu li {
+  background-color: #0D1F39;
+}
+
+.forsooth-books-menu li:hover {
+  background-color: #16335D;
+}
+
+.forsooth-book-image {
+  margin-top: 8.5rem;
+  float: left;
+  margin-left: 1rem;
+  width: 26rem;
+  box-shadow: -2px 2px 5px #888888;
+}
+
+.forsooth-blurb {
+  margin-top: 8.5rem;
+  width: 34rem;
+  margin-right: 1rem;
+  float: right;
+  text-align: justify;
+}
+
+.book-link {
+  color: inherit;
+  text-decoration: underline;
+}

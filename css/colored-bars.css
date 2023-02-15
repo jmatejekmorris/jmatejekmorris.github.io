@@ -124,7 +124,26 @@
   background-size: auto 100%;
 }
 
+.forsooth-yellow {
+  background-color: #E0B859;
+  background-image:url('/images/bars/forsooth-yellow.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
 
+.forsooth-teal {
+  background-color: #2E7685;
+  background-image:url('/images/bars/forsooth-teal.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
+
+.forsooth-navy {
+  background-color: #16335D;
+  background-image:url('/images/bars/forsooth-navy.png');
+  background-repeat: x-repeat;
+  background-size: auto 100%;
+}
 
 
 
